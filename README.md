@@ -55,6 +55,11 @@ Bayes' theorem 기반으로 카테고리화 시켜 분석하였습니다.
 [Classification](https://github.com/SearchInfo/SI-AI/blob/main/searchinfoWeb/ "Classification")
 bayes, bfillter 참조
 
+Memo.
+OCR을 구현하기 위해 LSTM 기반의 Tesseract 4.0을 사용, Test단계에 있음.
+[OCR](https://github.com/SearchInfo/SI-AI/blob/main/OCR/ "OCR")
+test.py Example.py 
+
 ---
 Output Configuration
 ---
