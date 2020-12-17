@@ -16,7 +16,7 @@ Web
 
 <http://searchinfo.pythonanywhere.com/>
 
-애플리케이션 코드는 [searchinfo-web](https://github.com/SearchInfo/SI-AI/tree/main/searchinfoWeb "code") 디렉터리에 모두 저장되어있습니다.
+애플리케이션 코드는 [searchinfo-web](https://github.com/madbo2/Search-Ai-Web/tree/master/searchinfoWeb "code") 디렉터리에 모두 저장되어있습니다.
 
 ---
 Introduce
@@ -42,7 +42,7 @@ python 기반의 모듈을 통해 작성하였습니다.
 
 코드에 대한 내용은 
 
-[crawler.py](https://github.com/SearchInfo/SI-AI/blob/main/searchinfoWeb/web_crawler_fin.py "web_crawler_fin.py")  참조
+[crawler.py](https://github.com/madbo2/Search-Ai-Web/blob/master/searchinfoWeb/web_crawler_fin.py "web_crawler_fin.py")  참조
 
 ---
 Machine Learning
@@ -52,12 +52,12 @@ Bayes' theorem 기반으로 카테고리화 시켜 분석하였습니다.
 특히 bayesian recursive fillter 기법을 사용하였습니다.
 
 코드에 대한 내용은
-[Classification](https://github.com/SearchInfo/SI-AI/blob/main/searchinfoWeb/ "Classification")
+[Classification](https://github.com/madbo2/Search-Ai-Web/tree/master/searchinfoWeb "Classification")
 bayes, bfillter 참조
 
 Memo.
 OCR을 구현하기 위해 LSTM 기반의 Tesseract 4.0을 사용, Test단계에 있음.
-[OCR](https://github.com/SearchInfo/SI-AI/blob/main/OCR/ "OCR")
+[OCR](https://github.com/madbo2/Search-Ai-Web/tree/master/OCR "OCR")
 test.py Example.py 
 
 ---
@@ -71,7 +71,7 @@ fillter application for python file 들을 Import 하여 사용합니다.
 Pythonanywhere 무료 호스팅 API를 사용하여 웹을 구현하였습니다.
 
 back-end 에 대한 구현은
-[server](https://github.com/SearchInfo/SI-AI/blob/main/searchinfoWeb/flask_app.py "server") 에 구현되어 있습니다.
+[server](https://github.com/madbo2/Search-Ai-Web/blob/master/searchinfoWeb/flask_app.py "server") 에 구현되어 있습니다.
 
 ---
 except
